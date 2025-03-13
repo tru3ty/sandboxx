@@ -1,4 +1,4 @@
-import { GradientCard } from "@/shared/components/cards/gradient-card";
+import { GradientCard } from "@/lib/shared/components/cards/gradient-card";
 
 const MainView = () => {
   return (

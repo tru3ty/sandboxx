@@ -1,6 +1,6 @@
 "use client";
+import { useMouse } from "@/lib/shared/hooks/use-mouse";
 import { cn } from "@/lib/utils";
-import { useMouse } from "@/shared/hooks/use-mouse";
 import { ElementType, type ReactNode } from "react";
 
 export const GradientCard = ({
