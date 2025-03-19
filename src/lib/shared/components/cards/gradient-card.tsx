@@ -31,10 +31,9 @@ export const GradientCard = ({
         borderRadius: `${roundness}px`,
         ...props.style,
       }}
-      {...props}
-    >
+      {...props}>
       <div
-        className="absolute inset-px -translate-x-1/2 -translate-y-1/2 transform-gpu rounded-full transition-transform duration-500 group-hover:scale-[3]"
+        className='absolute inset-px -translate-x-1/2 -translate-y-1/2 transform-gpu rounded-full transition-transform duration-500 group-hover:scale-[3]'
         style={{
           maskImage: `radial-gradient(${circleSize / 2}px circle at center, white, transparent)`,
           width: circleSize,
@@ -49,7 +48,7 @@ export const GradientCard = ({
         style={{
           borderRadius: `${roundness}px`,
         }}
-        className="absolute inset-px bg-neutral-100/80 dark:bg-neutral-900/80"
+        className='absolute inset-px bg-neutral-100/80 dark:bg-neutral-900/80'
       />
       <div className={cn("relative", childrenClassName)}>{children}</div>
     </Element>
