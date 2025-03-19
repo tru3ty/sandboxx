@@ -18,7 +18,7 @@ export const data: ComponentItemType[] = [
   {
     name: "Gradient card",
     component: (
-      <GradientCard className="flex items-center justify-center w-48 h-48">
+      <GradientCard className='flex items-center justify-center w-48 h-48'>
         Gradient card preview
       </GradientCard>
     ),
