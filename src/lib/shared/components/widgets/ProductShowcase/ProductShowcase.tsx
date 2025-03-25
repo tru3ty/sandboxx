@@ -25,7 +25,7 @@ const ProductShowcase = () => {
             <ExtraCard key={product.id} />
           ) : (
             <ProductList
-              key={product.id}
+              id={product.id}
               name={product.name}
               item_id={product.item_id}
               price={product.price}

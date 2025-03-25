@@ -2,7 +2,6 @@ import { ShoppingBag } from "lucide-react";
 import Image from "next/image";
 
 interface ProductProps {
-  id: number;
   name: string;
   item_id: string;
   price: number;

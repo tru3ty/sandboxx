@@ -1,4 +1,4 @@
-import ProductShowcase from "@/lib/shared/components/widgets/ProductShowcase";
+import ProductShowcase from "@/lib/shared/components/widgets/ProductShowcase/ProductShowcase";
 
 export default function ProductShowcasePage() {
   return (
