@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "name": "Astra Chair",
+    "item_id": "SL25901",
+    "price": 120,
+    "discount_price": 99,
+    "path": "/img/astra.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Orion Chair",
+    "item_id": "SL25902",
+    "price": 150,
+    "path": "/img/orion.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vega Chair",
+    "item_id": "SL25903",
+    "price": 200,
+    "discount_price": 179,
+    "path": "/img/vega.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sirius Chair",
+    "item_id": "SL25904",
+    "price": 180,
+    "path": "/img/sirius.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Polaris Chair",
+    "item_id": "SL25905",
+    "price": 220,
+    "discount_price": 199,
+    "path": "/img/polaris.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Lyra Chair",
+    "item_id": "SL25906",
+    "price": 130,
+    "path": "/img/lyra.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Altair Chair",
+    "item_id": "SL25907",
+    "price": 170,
+    "discount_price": 149,
+    "path": "/img/altair.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cetus Chair",
+    "item_id": "SL25908",
+    "price": 190,
+    "path": "/img/cetus.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Draco Chair",
+    "item_id": "SL25909",
+    "price": 210,
+    "path": "/img/draco.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Phoenix Chair",
+    "item_id": "SL25910",
+    "price": 140,
+    "discount_price": 119,
+    "path": "/img/phoenix.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Hydra Chair",
+    "item_id": "SL25911",
+    "price": 160,
+    "path": "/img/hydra.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Pegasus Chair",
+    "item_id": "SL25912",
+    "price": 230,
+    "path": "/img/pegasus.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Andromeda Chair",
+    "item_id": "SL25913",
+    "price": 250,
+    "discount_price": 229,
+    "path": "/img/andromeda.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cygnus Chair",
+    "item_id": "SL25914",
+    "price": 175,
+    "path": "/img/cygnus.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Aquila Chair",
+    "item_id": "SL25915",
+    "price": 195,
+    "path": "/img/aquila.jpg"
+  }
+]
