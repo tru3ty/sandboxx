@@ -40,9 +40,7 @@ const ProductShowcase = () => {
               discount_price={product.discount_price}
               path={product.path}
             />
-
-            {/* Вставляем ExtraCard после второго элемента */}
-            {index === 1 && <ExtraCard key='extra' />}
+            {index === 1 && <ExtraCard key={index} />}
           </>
         ))}
       </div>
