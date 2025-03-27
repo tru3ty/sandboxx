@@ -22,25 +22,29 @@ const ProductShowcase = () => {
 
   const products: ItemContent[] = productsData;
 
-  const filteredProucts = filter ? products.filter((product) => product.type === filter) : products;
+  const filteredProducts = filter
+    ? products.filter((product) => product.type === filter)
+    : products;
 
   return (
     <>
       <div className='grid grid-cols-2 gap-4 w-full h-full bg-[#f6f6f6] text-black pt-7 p-5 overflow-y-auto'>
         <HeaderDescription setFilter={setFilter} />
-        {filteredProucts.map((product) =>
-          product.id === 3 ? (
-            <ExtraCard key={product.id} />
-          ) : (
+        {filteredProducts.map((product, index) => (
+          <>
             <ProductList
               key={product.id}
               name={product.name}
               item_id={product.item_id}
               price={product.price}
               discount_price={product.discount_price}
-              path={product.path}></ProductList>
-          ),
-        )}
+              path={product.path}
+            />
+
+            {/* Вставляем ExtraCard после второго элемента */}
+            {index === 1 && <ExtraCard key='extra' />}
+          </>
+        ))}
       </div>
       <NavBar></NavBar>
     </>
