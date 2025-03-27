@@ -5,14 +5,16 @@
     "item_id": "SL25901",
     "price": 120,
     "discount_price": 99,
-    "path": "/img/astra.jpg"
+    "path": "/img/astra.jpg",
+    "type": "wood"
   },
   {
     "id": 2,
     "name": "Orion Chair",
     "item_id": "SL25902",
     "price": 150,
-    "path": "/img/orion.jpg"
+    "path": "/img/orion.jpg",
+    "type": "plastic"
   },
   {
     "id": 3,
@@ -20,14 +22,16 @@
     "item_id": "SL25903",
     "price": 200,
     "discount_price": 179,
-    "path": "/img/vega.jpg"
+    "path": "/img/vega.jpg",
+    "type": "metal"
   },
   {
     "id": 4,
     "name": "Sirius Chair",
     "item_id": "SL25904",
     "price": 180,
-    "path": "/img/sirius.jpg"
+    "path": "/img/sirius.jpg",
+    "type": "wood"
   },
   {
     "id": 5,
@@ -35,14 +39,16 @@
     "item_id": "SL25905",
     "price": 220,
     "discount_price": 199,
-    "path": "/img/polaris.jpg"
+    "path": "/img/polaris.jpg",
+    "type": "plastic"
   },
   {
     "id": 6,
     "name": "Lyra Chair",
     "item_id": "SL25906",
     "price": 130,
-    "path": "/img/lyra.jpg"
+    "path": "/img/lyra.jpg",
+    "type": "metal"
   },
   {
     "id": 7,
@@ -50,21 +56,24 @@
     "item_id": "SL25907",
     "price": 170,
     "discount_price": 149,
-    "path": "/img/altair.jpg"
+    "path": "/img/altair.jpg",
+    "type": "wood"
   },
   {
     "id": 8,
     "name": "Cetus Chair",
     "item_id": "SL25908",
     "price": 190,
-    "path": "/img/cetus.jpg"
+    "path": "/img/cetus.jpg",
+    "type": "plastic"
   },
   {
     "id": 9,
     "name": "Draco Chair",
     "item_id": "SL25909",
     "price": 210,
-    "path": "/img/draco.jpg"
+    "path": "/img/draco.jpg",
+    "type": "metal"
   },
   {
     "id": 10,
@@ -72,21 +81,24 @@
     "item_id": "SL25910",
     "price": 140,
     "discount_price": 119,
-    "path": "/img/phoenix.jpg"
+    "path": "/img/phoenix.jpg",
+    "type": "wood"
   },
   {
     "id": 11,
     "name": "Hydra Chair",
     "item_id": "SL25911",
     "price": 160,
-    "path": "/img/hydra.jpg"
+    "path": "/img/hydra.jpg",
+    "type": "plastic"
   },
   {
     "id": 12,
     "name": "Pegasus Chair",
     "item_id": "SL25912",
     "price": 230,
-    "path": "/img/pegasus.jpg"
+    "path": "/img/pegasus.jpg",
+    "type": "metal"
   },
   {
     "id": 13,
@@ -94,20 +106,23 @@
     "item_id": "SL25913",
     "price": 250,
     "discount_price": 229,
-    "path": "/img/andromeda.jpg"
+    "path": "/img/andromeda.jpg",
+    "type": "wood"
   },
   {
     "id": 14,
     "name": "Cygnus Chair",
     "item_id": "SL25914",
     "price": 175,
-    "path": "/img/cygnus.jpg"
+    "path": "/img/cygnus.jpg",
+    "type": "plastic"
   },
   {
     "id": 15,
     "name": "Aquila Chair",
     "item_id": "SL25915",
     "price": 195,
-    "path": "/img/aquila.jpg"
+    "path": "/img/aquila.jpg",
+    "type": "metal"
   }
 ]

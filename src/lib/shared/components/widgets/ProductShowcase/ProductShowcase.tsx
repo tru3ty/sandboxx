@@ -1,8 +1,11 @@
+"use client";
+
 import productsData from "@/data/items.json";
 import { ProductList } from "./components/ProductList";
 import { NavBar } from "./components/NavBar";
 import { HeaderDescription } from "./components/HeaderDescription";
 import { ExtraCard } from "./components/ExtraCard";
+import { useState } from "react";
 
 const ProductShowcase = () => {
   type ItemContent = {
@@ -10,22 +13,27 @@ const ProductShowcase = () => {
     name: string;
     item_id: string;
     price: number;
+    type: "wood" | "metal" | "plastic";
     discount_price?: number;
     path: string;
   };
 
+  const [filter, setFilter] = useState<string | null>("");
+
   const products: ItemContent[] = productsData;
+
+  const filteredProucts = filter ? products.filter((product) => product.type === filter) : products;
 
   return (
     <>
       <div className='grid grid-cols-2 gap-4 w-full h-full bg-[#f6f6f6] text-black pt-7 p-5 overflow-y-auto'>
-        <HeaderDescription />
-        {products.map((product) =>
+        <HeaderDescription setFilter={setFilter} />
+        {filteredProucts.map((product) =>
           product.id === 3 ? (
             <ExtraCard key={product.id} />
           ) : (
             <ProductList
-              id={product.id}
+              key={product.id}
               name={product.name}
               item_id={product.item_id}
               price={product.price}
